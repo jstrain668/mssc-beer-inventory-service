@@ -11,10 +11,13 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * Created by jt on 2019-09-09.
+ */
 @Slf4j
 @RequiredArgsConstructor
 @Service
-public class AllocationServiceImpl implements AllocationService{
+public class AllocationServiceImpl implements AllocationService {
 
     private final BeerInventoryRepository beerInventoryRepository;
 
@@ -81,5 +84,4 @@ public class AllocationServiceImpl implements AllocationService{
             log.debug("Saved Inventory for beer upc: " + savedInventory.getUpc() + " inventory id: " + savedInventory.getId());
         });
     }
-
 }

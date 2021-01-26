@@ -15,11 +15,15 @@ import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 import java.util.UUID;
 
+/**
+ * Created by jt on 2019-05-12.
+ */
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class BeerDto implements Serializable {
+public class BeerDto implements Serializable  {
 
     static final long serialVersionUID = -5815566940065181210L;
 
