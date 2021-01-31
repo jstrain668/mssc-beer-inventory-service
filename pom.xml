@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.github.sfg-beer-works</groupId>
         <artifactId>sfg-brewery-bom</artifactId>
-        <version>1.0.17</version>
+        <version>1.0.19</version>
     </parent>
 
     <groupId>guru.springframework</groupId>
@@ -17,6 +17,10 @@
     <name>mssc-beer-inventory-service</name>
 
     <description>MSSC Beer Inventory Service</description>
+
+    <properties>
+        <docker.image.prefix>jjstrain68</docker.image.prefix>
+    </properties>
 
     <dependencies>
         <dependency>
